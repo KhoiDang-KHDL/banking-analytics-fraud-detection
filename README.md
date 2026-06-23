@@ -198,6 +198,30 @@ The system features a comprehensive corporate-grade analytics architecture compr
   <img src="Images/Anomalies.png" width="900" alt="AI Risk Interception View"/>
 </p>
 
+#### 🌲 Isolation Forest
+
+<img src="Images/IsolationForest.png" width="900" alt="IsolationForest.png"/>
+
+
+* Applies **unsupervised anomaly detection (Isolation Forest)** to identify potential fraudulent transactions.
+* Compares **behavioral patterns between normal and anomalous transactions** across multiple features (amount, fees, income, etc.).
+* Analyzes distribution across **transaction types, channels, products, and locations** to detect abnormal concentrations.
+* Visualizes anomalies using **PCA (2D projection)** to highlight separation between normal and suspicious transactions.
+* Evaluates **anomaly score distribution** to define thresholds and distinguish fraud vs. normal behavior.
+* Helps uncover **hidden fraud patterns, unusual customer behavior, and high-risk transaction profiles**.
+
+---
+
+#### 🔬 Local Outlier Factor
+
+<img src="Images/LOF.png" width="900" alt="IsolationForest.png"/>
+
+* Applies **Local Outlier Factor (LOF)** to detect anomalies based on **local density deviations** in the data.
+* Compares **normal vs. anomalous behavior** across multiple features (amount, fees, income, etc.).
+* Analyzes distributions across **transaction types, channels, products, and locations** to identify abnormal patterns.
+* Visualizes anomalies using **PCA (2D projection)** to highlight clusters of suspicious transactions.
+* Evaluates **LOF score distribution**, where higher scores indicate stronger anomaly likelihood.
+* Helps uncover **localized anomalies and subtle behavioral deviations** that may not be captured by global models.
 ---
 
 ## 🛠️ Skills & Technologies Demonstrated
@@ -208,6 +232,7 @@ The system features a comprehensive corporate-grade analytics architecture compr
 | **Advanced Analytics** | Engineering behavior indicators: Recency, Frequency, Monetary metrics; modeling long-term CLV and creating progressive customer retention matrices (Cohort Matrix). |
 | **Unsupervised ML** | Deploying Isolation Forest (global outlier detection) and Local Outlier Factor (localized density anomaly detection); applying PCA dimensionality reduction to visualize multi-dimensional data partitions. |
 | **Business Intelligence** | Designing corporate-grade relational Power BI schemas, establishing robust star-schema data models, and optimizing advanced DAX expressions for complex time-intelligence metrics (Cohort, CLV, QoQ). |
+
 
 ---
 
@@ -227,5 +252,7 @@ banking-analytics-fraud-detection/
 │   ├── Revenue_&_Customer.png
 │   ├── RFM.png
 │   ├── Cohort.png
+│   ├── LOF.png
+│   ├── IsolationForest.png
 │   └── Anomalies.png
 └── Dashboard.pbix                   # Native Power BI Desktop application file
