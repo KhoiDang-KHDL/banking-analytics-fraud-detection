@@ -201,6 +201,7 @@ The system features a comprehensive corporate-grade analytics architecture compr
 #### 🌲 Isolation Forest
 
 <img src="Images/IsolationForest.png" width="900" alt="IsolationForest.png"/>
+<img src="Images/Isolation_DeepResearch.png" width="900" alt="IsolationForest_DeepResearch.png"/>
 
 
 * Applies **unsupervised anomaly detection (Isolation Forest)** to identify potential fraudulent transactions.
@@ -215,6 +216,7 @@ The system features a comprehensive corporate-grade analytics architecture compr
 #### 🔬 Local Outlier Factor
 
 <img src="Images/LOF.png" width="900" alt="IsolationForest.png"/>
+<img src="Images/LOF_DeepResearch.png" width="900" alt="LOF_DeepResearch.png"/>
 
 * Applies **Local Outlier Factor (LOF)** to detect anomalies based on **local density deviations** in the data.
 * Compares **normal vs. anomalous behavior** across multiple features (amount, fees, income, etc.).
